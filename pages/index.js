@@ -8,7 +8,7 @@ const Index = (props) => {
       gridTemplateRows: '1fr auto 1fr',
       gridTemplateColumns: '1fr auto 1fr'
     }}>
-      <pre style={{ gridArea: '2 / 2 / 3 / 3'}}>{JSON.stringify(fetchedData, null, 2)}</pre>
+      <pre style={{ gridArea: '2 / 2 / 3 / 3' }}>{JSON.stringify(fetchedData, null, 2)}</pre>
     </main>
   )
 }
